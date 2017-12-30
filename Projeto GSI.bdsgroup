@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{C55989AB-ACAD-41FF-91FE-091B5C20D5D4}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    
+    
+    <Projects>
+      <Projects Name="GSIServidor.exe">Servidor\GSIServidor.bdsproj</Projects>
+      <Projects Name="GSI.exe">Cliente\GSI.bdsproj</Projects>
+      <Projects Name="GSIEmailServidor.exe">EmailServidor\GSIEmailServidor.bdsproj</Projects>
+      <Projects Name="Targets">GSIServidor.exe GSI.exe GSIEmailServidor.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+	<StarTeamAssociation>; Projeto GSI.bdsgroup; 192.168.1.17:49201; Projeto TOSHIBA; Projeto TOSHIBA; Projeto TOSHIBA\; ..\; Servidor\GSIServidor.bdsproj; ; ; Cliente\GSI.bdsproj; ; ; </StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+	<CheckinList>
+    Projeto GSI.bdsgroup;
+    Servidor\GSIServidor.bdsproj;
+    Cliente\GSI.bdsproj;
+    EmailServidor\GSIEmailServidor.bdsproj
+  </CheckinList>
+</BorlandProject>

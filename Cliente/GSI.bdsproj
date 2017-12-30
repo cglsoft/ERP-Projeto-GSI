@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Delphi.Personality</Option>
+			<Option Name="ProjectType">VCLApplication</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{8EB767A3-99FB-4BEE-95DD-79C59D8E8B44}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Delphi.Personality>
+		<Source>
+			<Source Name="MainSource">GSI.dpr</Source>
+		</Source>
+		<FileVersion>
+			<FileVersion Name="Version">7.0</FileVersion>
+		</FileVersion>
+		<Compiler>
+			<Compiler Name="A">8</Compiler>
+			<Compiler Name="B">1</Compiler>
+			<Compiler Name="C">0</Compiler>
+			<Compiler Name="D">1</Compiler>
+			<Compiler Name="E">0</Compiler>
+			<Compiler Name="F">0</Compiler>
+			<Compiler Name="G">1</Compiler>
+			<Compiler Name="H">1</Compiler>
+			<Compiler Name="I">1</Compiler>
+			<Compiler Name="J">1</Compiler>
+			<Compiler Name="K">0</Compiler>
+			<Compiler Name="L">1</Compiler>
+			<Compiler Name="M">0</Compiler>
+			<Compiler Name="N">1</Compiler>
+			<Compiler Name="O">1</Compiler>
+			<Compiler Name="P">1</Compiler>
+			<Compiler Name="Q">1</Compiler>
+			<Compiler Name="R">1</Compiler>
+			<Compiler Name="S">0</Compiler>
+			<Compiler Name="T">0</Compiler>
+			<Compiler Name="U">1</Compiler>
+			<Compiler Name="V">1</Compiler>
+			<Compiler Name="W">1</Compiler>
+			<Compiler Name="X">1</Compiler>
+			<Compiler Name="Y">0</Compiler>
+			<Compiler Name="Z">1</Compiler>
+			<Compiler Name="ShowHints">True</Compiler>
+			<Compiler Name="ShowWarnings">True</Compiler>
+			<Compiler Name="UnitAliases">WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Compiler>
+			<Compiler Name="NamespacePrefix"></Compiler>
+			<Compiler Name="GenerateDocumentation">False</Compiler>
+			<Compiler Name="DefaultNamespace"></Compiler>
+			<Compiler Name="SymbolDeprecated">True</Compiler>
+			<Compiler Name="SymbolLibrary">True</Compiler>
+			<Compiler Name="SymbolPlatform">True</Compiler>
+			<Compiler Name="SymbolExperimental">True</Compiler>
+			<Compiler Name="UnitLibrary">True</Compiler>
+			<Compiler Name="UnitPlatform">True</Compiler>
+			<Compiler Name="UnitDeprecated">True</Compiler>
+			<Compiler Name="UnitExperimental">True</Compiler>
+			<Compiler Name="HResultCompat">True</Compiler>
+			<Compiler Name="HidingMember">True</Compiler>
+			<Compiler Name="HiddenVirtual">True</Compiler>
+			<Compiler Name="Garbage">True</Compiler>
+			<Compiler Name="BoundsError">True</Compiler>
+			<Compiler Name="ZeroNilCompat">True</Compiler>
+			<Compiler Name="StringConstTruncated">True</Compiler>
+			<Compiler Name="ForLoopVarVarPar">True</Compiler>
+			<Compiler Name="TypedConstVarPar">True</Compiler>
+			<Compiler Name="AsgToTypedConst">True</Compiler>
+			<Compiler Name="CaseLabelRange">True</Compiler>
+			<Compiler Name="ForVariable">True</Compiler>
+			<Compiler Name="ConstructingAbstract">True</Compiler>
+			<Compiler Name="ComparisonFalse">True</Compiler>
+			<Compiler Name="ComparisonTrue">True</Compiler>
+			<Compiler Name="ComparingSignedUnsigned">True</Compiler>
+			<Compiler Name="CombiningSignedUnsigned">True</Compiler>
+			<Compiler Name="UnsupportedConstruct">True</Compiler>
+			<Compiler Name="FileOpen">True</Compiler>
+			<Compiler Name="FileOpenUnitSrc">True</Compiler>
+			<Compiler Name="BadGlobalSymbol">True</Compiler>
+			<Compiler Name="DuplicateConstructorDestructor">True</Compiler>
+			<Compiler Name="InvalidDirective">True</Compiler>
+			<Compiler Name="PackageNoLink">True</Compiler>
+			<Compiler Name="PackageThreadVar">True</Compiler>
+			<Compiler Name="ImplicitImport">True</Compiler>
+			<Compiler Name="HPPEMITIgnored">True</Compiler>
+			<Compiler Name="NoRetVal">True</Compiler>
+			<Compiler Name="UseBeforeDef">True</Compiler>
+			<Compiler Name="ForLoopVarUndef">True</Compiler>
+			<Compiler Name="UnitNameMismatch">True</Compiler>
+			<Compiler Name="NoCFGFileFound">True</Compiler>
+			<Compiler Name="ImplicitVariants">True</Compiler>
+			<Compiler Name="UnicodeToLocale">True</Compiler>
+			<Compiler Name="LocaleToUnicode">True</Compiler>
+			<Compiler Name="ImagebaseMultiple">True</Compiler>
+			<Compiler Name="SuspiciousTypecast">True</Compiler>
+			<Compiler Name="PrivatePropAccessor">True</Compiler>
+			<Compiler Name="UnsafeType">False</Compiler>
+			<Compiler Name="UnsafeCode">False</Compiler>
+			<Compiler Name="UnsafeCast">False</Compiler>
+			<Compiler Name="OptionTruncated">True</Compiler>
+			<Compiler Name="WideCharReduced">True</Compiler>
+			<Compiler Name="DuplicatesIgnored">True</Compiler>
+			<Compiler Name="UnitInitSeq">True</Compiler>
+			<Compiler Name="LocalPInvoke">True</Compiler>
+			<Compiler Name="MessageDirective">True</Compiler>
+			<Compiler Name="CodePage"></Compiler>
+		</Compiler>
+		<Linker>
+			<Linker Name="MapFile">3</Linker>
+			<Linker Name="OutputObjs">0</Linker>
+			<Linker Name="GenerateHpps">False</Linker>
+			<Linker Name="ConsoleApp">1</Linker>
+			<Linker Name="DebugInfo">False</Linker>
+			<Linker Name="RemoteSymbols">False</Linker>
+			<Linker Name="GenerateDRC">False</Linker>
+			<Linker Name="MinStackSize">16384</Linker>
+			<Linker Name="MaxStackSize">1048576</Linker>
+			<Linker Name="ImageBase">4194304</Linker>
+			<Linker Name="ExeDescription"></Linker>
+		</Linker>
+		<Directories>
+			<Directories Name="OutputDir">C:\GSI</Directories>
+			<Directories Name="UnitOutputDir">C:\GSI\DCU</Directories>
+			<Directories Name="PackageDLLOutputDir"></Directories>
+			<Directories Name="PackageDCPOutputDir"></Directories>
+			<Directories Name="SearchPath">I:\projetos\GSI\Biblioteca\Ekrtf;I:\projetos\GSI\BIBLIOTECA\COMPONENTES;I:\projetos\GSI\BIBLIOTECA\DLL;C:\GSI\DCU;I:\projetos\GSI\BIBLIOTECA\FastMM4;I:\Projetos\GSI\BIBLIOTECA\BAR</Directories>
+			<Directories Name="Packages">vcl;rtl;vclx;inet;xmlrtl;vclie;inetdbbde;inetdbxpress;dbrtl;dsnap;dsnapcon;vcldb;dbexpress;dbxcds;bdertl;webdsnap;vclactnband;IntrawebDB_50_70;Intraweb_50_70;dclaxserver;ip4000clientvcl7;ip4000v7;fc4000v7</Directories>
+			<Directories Name="Conditionals">madExcept</Directories>
+			<Directories Name="DebugSourceDirs">e:\projetos\GSI\Biblioteca\MIDAS\;e:\projetos\GSI\Biblioteca\Ekrtf;e:\projetos\GSI\Biblioteca\DLL;e:\projetos\GSI\Biblioteca\COMPONENTES;e:\projetos\GSI\Biblioteca\BAR</Directories>
+			<Directories Name="UsePackages">False</Directories>
+		</Directories>
+		<Parameters>
+			<Parameters Name="RunParams"></Parameters>
+			<Parameters Name="HostApplication"></Parameters>
+			<Parameters Name="Launcher"></Parameters>
+			<Parameters Name="UseLauncher">False</Parameters>
+			<Parameters Name="DebugCWD"></Parameters>
+			<Parameters Name="Debug Symbols Search Path"></Parameters>
+			<Parameters Name="LoadAllSymbols">True</Parameters>
+			<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+		</Parameters>
+		<Language>
+			<Language Name="ActiveLang"></Language>
+			<Language Name="ProjectLang">$00000000</Language>
+			<Language Name="RootDir"></Language>
+		</Language>
+		<VersionInfo>
+			<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+			<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+			<VersionInfo Name="MajorVer">2</VersionInfo>
+			<VersionInfo Name="MinorVer">2</VersionInfo>
+			<VersionInfo Name="Release">100</VersionInfo>
+			<VersionInfo Name="Build">3843</VersionInfo>
+			<VersionInfo Name="Debug">True</VersionInfo>
+			<VersionInfo Name="PreRelease">True</VersionInfo>
+			<VersionInfo Name="Special">True</VersionInfo>
+			<VersionInfo Name="Private">True</VersionInfo>
+			<VersionInfo Name="DLL">True</VersionInfo>
+			<VersionInfo Name="Locale">1046</VersionInfo>
+			<VersionInfo Name="CodePage">1252</VersionInfo>
+		</VersionInfo>
+		<VersionInfoKeys>
+			<VersionInfoKeys Name="CompanyName">TOSHIBA MEDICAL DO BRASIL LTDA</VersionInfoKeys>
+			<VersionInfoKeys Name="FileDescription">GSI</VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion">2.2.100.3843</VersionInfoKeys>
+			<VersionInfoKeys Name="InternalName">GSI.EXE</VersionInfoKeys>
+			<VersionInfoKeys Name="LegalCopyright">Copyright 1996-2010 - TOSHIBA MEDICAL DO BRASIL LTDA</VersionInfoKeys>
+			<VersionInfoKeys Name="LegalTrademarks">Power by CGLSOFT</VersionInfoKeys>
+			<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductName">GSI - Gestão de Sistema Integrados</VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion">2.0</VersionInfoKeys>
+			<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+			<VersionInfoKeys Name="SpecialBuild">2</VersionInfoKeys>
+			<VersionInfoKeys Name="PrivateBuild"></VersionInfoKeys>
+			<VersionInfoKeys Name="Analyst">Claudio Gervasio de Lisboa</VersionInfoKeys>
+			<VersionInfoKeys Name="System Analyst">Claudio Gervasio de Lisboa</VersionInfoKeys>
+		</VersionInfoKeys>
+	</Delphi.Personality>
+	<ModelSupport>True</ModelSupport>
+	<CheckinList>
+    ModelSupport_GSI\default.txaPackage;
+    u_Principal.pas;
+    u_Principal.dfm;
+    u_dmGSI.pas;
+    u_dmGSI.dfm;
+    u_dmOs.PAS;
+    u_dmOs.dfm;
+    u_dmAS.pas;
+    u_dmAS.dfm;
+    u_dmEF.pas;
+    u_dmEF.dfm;
+    u_dmIT.pas;
+    u_dmIT.dfm;
+    u_dmRD.PAS;
+    u_dmRD.dfm;
+    u_dmCP.pas;
+    u_dmCP.dfm;
+    u_dmPP.pas;
+    u_dmPP.dfm;
+    u_dmGR.pas;
+    u_dmGR.dfm;
+    u_dmRS.pas;
+    u_dmRS.dfm;
+    u_dmFC.pas;
+    u_dmFC.dfm;
+    u_dmCM.pas;
+    u_dmCM.dfm;
+    u_Defeito.pas;
+    u_Defeito.dfm;
+    u_Login.pas;
+    u_Login.dfm;
+    u_ReconcileError.pas;
+    u_ReconcileError.dfm;
+    u_UserConectado.pas;
+    u_UserConectado.dfm;
+    u_NaturezaOp.pas;
+    u_NaturezaOp.dfm;
+    u_VisualizadorPadrao.pas;
+    u_VisualizadorPadrao.dfm;
+    u_VisualizaProcesso.pas;
+    u_VisualizaProcesso.dfm;
+    u_Produto.pas;
+    u_Produto.dfm;
+    u_Entidade.pas;
+    u_Entidade.dfm;
+    u_RelPedidoTmbj.pas;
+    u_RelPedidoTmbj.dfm;
+    u_RelPedidoPza.pas;
+    u_RelPedidoPza.dfm;
+    u_RelPedidoNx.pas;
+    u_RelPedidoNx.dfm;
+    u_RelFichaDI.pas;
+    u_RelFichaDI.dfm;
+    u_ListaPreco.pas;
+    u_ListaPreco.dfm;
+    u_TabelaPreco.pas;
+    u_TabelaPreco.dfm;
+    u_Cep.pas;
+    u_Cep.dfm;
+    u_VisualizaAcompPed.pas;
+    u_VisualizaAcompPed.dfm;
+    u_NovoProduto.pas;
+    u_NovoProduto.dfm;
+    u_RecalculaListaPreco.pas;
+    u_RecalculaListaPreco.dfm;
+    u_ProcessoItem.pas;
+    u_ProcessoItem.dfm;
+    u_RelLD.pas;
+    u_RelLD.dfm;
+    u_ParRelLD.pas;
+    u_ParRelLD.dfm;
+    u_VisualComponente.pas;
+    u_VisualComponente.dfm;
+    u_DefinirSenha.pas;
+    u_DefinirSenha.dfm;
+    u_Declaracao.pas;
+    u_Declaracao.dfm;
+    ..\Biblioteca\Modelo Cadastro\u_PadraoPesquisa.pas;
+    ..\Biblioteca\Modelo Cadastro\u_PadraoPesquisa.dfm;
+    ..\Biblioteca\Modelo Cadastro\u_PesquisaCampo.pas;
+    ..\Biblioteca\Modelo Cadastro\u_PesquisaCampo.dfm;
+    ..\Biblioteca\Modelo Cadastro\u_PadraoEdicao.PAS;
+    ..\Biblioteca\Modelo Cadastro\u_PadraoEdicao.dfm;
+    u_PDE.pas;
+    u_PDE.dfm;
+    u_PdeItem.pas;
+    u_PdeItem.dfm;
+    u_PercComFunc.pas;
+    u_PercComFunc.dfm;
+    u_VisualTabelaPrecoPedVend.pas;
+    u_VisualTabelaPrecoPedVend.dfm;
+    u_Usuario.pas;
+    u_Usuario.dfm;
+    u_Aparelho.pas;
+    u_Aparelho.dfm;
+    ..\Biblioteca\Modelo Cadastro\u_Exportar.pas;
+    ..\Biblioteca\Modelo Cadastro\u_Exportar.dfm;
+    u_RelOS.pas;
+    u_RelOS.dfm;
+    u_RelEmpenho.pas;
+    u_RelEmpenho.dfm;
+    u_Contrato.pas;
+    u_Contrato.dfm;
+    u_ProcessoSerie.pas;
+    u_ProcessoSerie.dfm;
+    u_PropostaConfig.pas;
+    u_PropostaConfig.dfm;
+    u_NFE.pas;
+    u_NFE.dfm;
+    u_NFS.pas;
+    u_NFS.dfm;
+    u_Hora.pas;
+    u_Hora.dfm;
+    u_VisualizaNotaFiscal.pas;
+    u_VisualizaNotaFiscal.dfm;
+    u_RDV.pas;
+    u_RDV.dfm;
+    u_Adiantamento.pas;
+    u_Adiantamento.dfm;
+    u_ParImpRdv.pas;
+    u_ParImpRdv.dfm;
+    u_ParDataMovimento.pas;
+    u_ParDataMovimento.dfm;
+    u_RelRDV.pas;
+    u_RelRDV.dfm;
+    u_Memo.pas;
+    u_Memo.dfm;
+    u_RelMemo.pas;
+    u_RelMemo.dfm;
+    u_DevolucaoNFE.pas;
+    u_DevolucaoNFE.dfm;
+    u_DevolucaoNFEParcial.pas;
+    u_DevolucaoNFEParcial.dfm;
+    u_HoraSolicitacao.pas;
+    u_HoraSolicitacao.dfm;
+    u_RelAdiantamento.pas;
+    u_RelAdiantamento.dfm;
+    u_RelAdiantEfetivo.pas;
+    u_RelAdiantEfetivo.dfm;
+    u_ParamAdiantEfetivo.pas;
+    u_ParamAdiantEfetivo.dfm;
+    u_VisualizaRDV.pas;
+    u_VisualizaRDV.dfm;
+    u_Integracao.pas;
+    u_Integracao.dfm;
+    u_FichaEstoque.pas;
+    u_FichaEstoque.dfm;
+    u_dmOFFLine.pas;
+    u_dmOFFLine.dfm;
+    u_SincronismoOFFLine.pas;
+    u_SincronismoOFFLine.dfm;
+    u_BancoHorasMulti.pas;
+    u_BancoHorasMulti.dfm;
+    u_RelPedidoDI.pas;
+    u_RelPedidoDI.dfm;
+    u_parDI.pas;
+    u_parDI.dfm;
+    u_DeclaracaoDadosPDE.pas;
+    u_DeclaracaoDadosPDE.dfm;
+    u_Processo.pas;
+    u_Processo.dfm;
+    u_Sobre.pas;
+    u_Sobre.dfm;
+    u_SelecionarEmpresa.pas;
+    u_SelecionarEmpresa.dfm;
+    u_ParPreNota.pas;
+    u_ParPreNota.dfm;
+    u_RelPreNota.pas;
+    u_RelPreNota.dfm;
+    u_VisualizaTerceiro.pas;
+    u_VisualizaTerceiro.dfm;
+    u_VisualEmpenho.pas;
+    u_VisualEmpenho.dfm;
+    u_RecebimentoEntrada.pas;
+    u_RecebimentoEntrada.dfm;
+    u_OSClassifPeca.pas;
+    u_OSClassifPeca.dfm;
+    u_DestinoPeca.pas;
+    u_DestinoPeca.dfm;
+    u_EtiquetaPeca.pas;
+    u_EtiquetaPeca.dfm;
+    u_RelOsClassifpeca.pas;
+    u_RelOsClassifpeca.dfm;
+    u_ParRdvDataMesAberto.pas;
+    u_ParRdvDataMesAberto.dfm;
+    u_RDVLogExclusao.pas;
+    u_RDVLogExclusao.dfm;
+    u_parImpHora.pas;
+    u_parImpHora.dfm;
+    u_RelHoras.pas;
+    u_RelHoras.dfm;
+    u_RelNotaMatrizEntrada.pas;
+    u_RelNotaMatrizEntrada.dfm;
+    u_Prestador.pas;
+    u_Prestador.dfm;
+    u_Recibo.pas;
+    u_Recibo.dfm;
+    u_RelRPS.pas;
+    u_RelRPS.dfm;
+    u_RelBaseINSS.pas;
+    u_RelBaseINSS.dfm;
+    u_ParRPS.pas;
+    u_ParRPS.dfm;
+    u_VisualPagtoComissao.pas;
+    u_VisualPagtoComissao.dfm;
+    u_RelInventario.pas;
+    u_RelInventario.dfm;
+    u_ParFichaInventario.pas;
+    u_ParFichaInventario.dfm;
+    u_InventarioDigitacao.pas;
+    u_InventarioDigitacao.dfm;
+    u_RelInventarioSaldo.pas;
+    u_RelInventarioSaldo.dfm;
+    u_RelFichaInventarioII.pas;
+    u_RelFichaInventarioII.dfm;
+    u_RDVSolicitacao.pas;
+    u_RDVSolicitacao.dfm;
+    u_PastaCliente.pas;
+    u_PastaCliente.dfm;
+    u_RelEtiqAnvisa.pas;
+    u_RelEtiqAnvisa.dfm;
+    u_RelRotuloAnvisa.pas;
+    u_RelRotuloAnvisa.dfm;
+    u_Pesquisa.pas;
+    u_Pesquisa.dfm;
+    u_RelIntegracao.pas;
+    u_RelIntegracao.dfm;
+    u_EmissaoEtiqueta.pas;
+    u_EmissaoEtiqueta.dfm;
+    u_RelEtiquetaEquip.pas;
+    u_RelEtiquetaEquip.dfm;
+    u_RelNotaServico.pas;
+    u_RelNotaServico.dfm;
+    u_EmissaoDuplicata.pas;
+    u_EmissaoDuplicata.dfm;
+    u_RelEmissaoDuplicata.pas;
+    u_RelEmissaoDuplicata.dfm;
+    u_EmissaoDocInterno.pas;
+    u_EmissaoDocInterno.dfm;
+    u_Rel002.pas;
+    u_Rel002.dfm;
+    u_rel002A.pas;
+    u_rel002A.dfm;
+    u_RecebimentoImport.pas;
+    u_RecebimentoImport.dfm;
+    u_LocalizacaoProduto.pas;
+    u_LocalizacaoProduto.dfm;
+    u_PrecoTransferencia.pas;
+    u_PrecoTransferencia.dfm;
+    u_0011.pas;
+    u_0011.dfm;
+    u_Rel0037.pas;
+    u_Rel0037.dfm;
+    u_Rel0011B.pas;
+    u_Rel0011B.dfm;
+    u_Rel0011Dev.pas;
+    u_Rel0011Dev.dfm;
+    u_Rel0011A.pas;
+    u_Rel0011A.dfm;
+    u_Rel0011C.pas;
+    u_Rel0011C.dfm;
+    u_0013.pas;
+    u_0013.dfm;
+    u_Rel0013.pas;
+    u_Rel0013.dfm;
+    u_0014.pas;
+    u_0014.dfm;
+    u_Rel0014.pas;
+    u_Rel0014.dfm;
+    u_Rel0017.pas;
+    u_Rel0017.dfm;
+    u_0020.pas;
+    u_0020.dfm;
+    u_Rel0020.pas;
+    u_Rel0020.dfm;
+    u_0019.pas;
+    u_0019.dfm;
+    u_Rel0023.pas;
+    u_Rel0023.dfm;
+    u_0021.pas;
+    u_0021.dfm;
+    u_PDS.pas;
+    u_PDS.dfm;
+    u_PedVendaItemImp.pas;
+    u_PedVendaItemImp.dfm;
+    u_Despesa.pas;
+    u_Despesa.dfm;
+    u_0002.pas;
+    u_0002.dfm;
+    u_CategoriaEntidade.pas;
+    u_CategoriaEntidade.dfm;
+    u_RetornoNFS.pas;
+    u_RetornoNFS.dfm;
+    u_RetornoNFSParcial.pas;
+    u_RetornoNFSParcial.dfm;
+    u_ContratoPedido.pas;
+    u_ContratoPedido.dfm;
+    u_0006.pas;
+    u_0006.dfm;
+    u_Rel006.pas;
+    u_Rel006.dfm;
+    u_rel002b.pas;
+    u_rel002b.dfm;
+    u_Rel0021.pas;
+    u_Rel0021.dfm;
+    u_Rel006A.pas;
+    u_Rel006A.dfm;
+    u_SaldoProduto.pas;
+    u_SaldoProduto.dfm;
+    u_0018.pas;
+    u_0018.dfm;
+    u_Rel0018.pas;
+    u_Rel0018.dfm;
+    u_RelNotaMatrizSaida.pas;
+    u_RelNotaMatrizSaida.dfm;
+    u_AcompPed.pas;
+    u_AcompPed.dfm;
+    u_ProcessoImp.pas;
+    u_ProcessoImp.dfm;
+    u_Inventario.pas;
+    u_Inventario.dfm;
+    u_ParAnaliseVenda.pas;
+    u_ParAnaliseVenda.dfm;
+    u_OSMaterial.pas;
+    u_OSMaterial.dfm;
+    u_0022.pas;
+    u_0022.dfm;
+    u_Rel0022.pas;
+    u_Rel0022.dfm;
+    u_Voto.pas;
+    u_Voto.dfm;
+    u_Rel0022a.pas;
+    u_Rel0022a.dfm;
+    u_Rel0022B.pas;
+    u_Rel0022B.dfm;
+    u_RelPedidovenda.pas;
+    u_RelPedidovenda.dfm;
+    u_RelRevenda.pas;
+    u_RelRevenda.dfm;
+    u_ParPedVend.pas;
+    u_ParPedVend.dfm;
+    u_RelPrecoTransf.pas;
+    u_RelPrecoTransf.dfm;
+    u_PedVendaVendedor.pas;
+    u_PedVendaVendedor.dfm;
+    u_BaseComissaoVendedor.pas;
+    u_BaseComissaoVendedor.dfm;
+    u_0023.pas;
+    u_0023.dfm;
+    u_Rel0019.pas;
+    u_Rel0019.dfm;
+    u_VisualHistDupl.pas;
+    u_VisualHistDupl.dfm;
+    u_AnaliseVenda.pas;
+    u_AnaliseVenda.dfm;
+    u_ParRelVendedor.pas;
+    u_ParRelVendedor.dfm;
+    u_RelVendaVendedor.pas;
+    u_RelVendaVendedor.dfm;
+    u_RelComissaoVendedor.pas;
+    u_RelComissaoVendedor.dfm;
+    u_PagtoComissao.pas;
+    u_PagtoComissao.dfm;
+    u_LibPagtoComissao.pas;
+    u_LibPagtoComissao.dfm;
+    u_DivisaoDuplicata.pas;
+    u_DivisaoDuplicata.dfm;
+    u_RelSaidasDivisas.pas;
+    u_RelSaidasDivisas.dfm;
+    u_Rel0024.pas;
+    u_Rel0024.dfm;
+    u_Rel0025.pas;
+    u_Rel0025.dfm;
+    u_Rel0026.pas;
+    u_Rel0026.dfm;
+    u_Rel0027.pas;
+    u_Rel0027.dfm;
+    u_Rel0028.pas;
+    u_Rel0028.dfm;
+    u_Rel0029.pas;
+    u_Rel0029.dfm;
+    u_Rel0030.pas;
+    u_Rel0030.dfm;
+    u_Rel0031.pas;
+    u_Rel0031.dfm;
+    u_Rel0032.pas;
+    u_Rel0032.dfm;
+    u_RelHorasPendentes.pas;
+    u_RelHorasPendentes.dfm;
+    u_VisualTabelaPreco.pas;
+    u_VisualTabelaPreco.dfm;
+    u_IntegracaoOnLine.pas;
+    u_Proposta.pas;
+    u_Proposta.dfm;
+    u_Rel0033.pas;
+    u_Rel0033.dfm;
+    u_0033.pas;
+    u_0033.dfm;
+    u_PedVendaInterv.pas;
+    u_PedVendaInterv.dfm;
+    u_PrincipalOFFLine.pas;
+    u_PrincipalOFFLine.dfm;
+    u_OSDefeitoOFFLine.pas;
+    u_OSDefeitoOFFLine.dfm;
+    u_VisualizaContrato.pas;
+    u_VisualizaContrato.dfm;
+    u_HoraTecnicaOFFLine.pas;
+    u_HoraTecnicaOFFLine.dfm;
+    u_BancoHorasOFFLine.pas;
+    u_BancoHorasOFFLine.dfm;
+    u_DespesaOFFLine.pas;
+    u_DespesaOFFLine.dfm;
+    u_EmissaoNotaFiscal.pas;
+    u_EmissaoNotaFiscal.dfm;
+    u_RelDocInterno.pas;
+    u_RelDocInterno.dfm;
+    u_0034.pas;
+    u_0034.dfm;
+    u_PedVendaItemRev.pas;
+    u_PedVendaItemRev.dfm;
+    u_Rel0034.pas;
+    u_Rel0034.dfm;
+    u_ClasseNivel.pas;
+    u_ClasseNivel.dfm;
+    u_0037.pas;
+    u_0037.dfm;
+    u_Rel0036.pas;
+    u_Rel0036.dfm;
+    u_VisualReservaPeca.pas;
+    u_VisualReservaPeca.dfm;
+    u_PdsItem.pas;
+    u_PdsItem.dfm;
+    u_RelProdutoSaldos.pas;
+    u_RelProdutoSaldos.dfm;
+    u_RelOSNovo.pas;
+    u_RelOSNovo.dfm;
+    u_RelOSNovoB.pas;
+    u_RelOSNovoB.dfm;
+    u_OSDefeito.pas;
+    u_OSDefeito.dfm;
+    u_Rel0013B.pas;
+    u_Rel0013B.dfm;
+    u_ParAnvisa.pas;
+    u_ParAnvisa.dfm;
+    u_RegistroGSI.pas;
+    u_RegistroGSI.dfm;
+    C:\Arquivos de programas\Borland\BDS\4.0\source\Win32\vcl\Consts.pas;
+    u_RelNotaServicoFilial.pas;
+    u_RelNotaServicoFilial.dfm;
+    u_OSOFFLine.pas;
+    u_OSOFFLine.dfm;
+    u_OSSincronismo.pas;
+    u_OSSincronismo.dfm;
+    u_DemoCatalogo.pas;
+    u_DemoCatalogo.dfm;
+    u_RelHorasMensal.pas;
+    u_RelHorasMensal.dfm;
+    u_ProcessoUtil.pas;
+    u_ProcessoUtil.dfm;
+    ..\BIBLIOTECA\DLL\FuncoesDSI.pas;
+    ..\BIBLIOTECA\DLL\FuncoesCliente.pas;
+    u_BancoHoras.pas;
+    u_BancoHoras.dfm;
+    u_RelPecaTerceiro.pas;
+    u_RelPecaTerceiro.dfm;
+    u_0017.pas;
+    u_0017.dfm;
+    u_ContratoAuto.pas;
+    u_ContratoAuto.dfm;
+    u_FI.pas;
+    u_FI.dfm;
+    u_TipoOs.pas;
+    u_TipoOs.dfm;
+    u_RelHorasApuracao.pas;
+    u_RelHorasApuracao.dfm;
+    u_RelHoraCompensada.pas;
+    u_RelHoraCompensada.dfm;
+    u_OSDemo.pas;
+    u_OSDemo.dfm;
+    u_PagtoComAuto.pas;
+    u_PagtoComAuto.dfm;
+    u_RelEmissaoEtiqueta.pas;
+    u_RelEmissaoEtiqueta.dfm;
+    u_RelFichaInventario.pas;
+    u_RelFichaInventario.dfm;
+    u_VisualizaPedido.pas;
+    u_VisualizaPedido.dfm;
+    u_PedVenda.pas;
+    u_PedVenda.dfm;
+    u_0036.pas;
+    u_0036.dfm;
+    u_Rel0011.pas;
+    u_Rel0011.dfm;
+    u_dmFI.pas;
+    u_dmFI.dfm;
+    u_OS.pas;
+    u_OS.dfm;
+    u_Formatacoes.pas;
+    u_BaseComissaoAutomat.pas;
+    u_BaseComissaoAutomat.dfm;
+    u_PortalAtualizacao.pas;
+    u_PortalAtualizacao.dfm;
+    GSI.bdsproj;
+    GSI.dpr;
+    GSI.res
+  </CheckinList>
+</BorlandProject>

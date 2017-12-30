@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<base href="http://tmbbd1.toshibamedical.com.br:7778/pls/portal/">
+
+<SCRIPT TYPE="text/javascript">
+<!-- Comment out script for old browsers
+            function loginsubmit() {
+                document.LoginForm.password.value = (document.LoginForm.password.value == "") ? document.LoginForm.p_request.value : document.LoginForm.password.value;	//this line is required for IE5.5, which fires loginsubmit twice.
+                document.LoginForm.p_request.value = "";
+
+                if (!parent.frames.s2pFrame) {
+                    document.LoginForm.site2pstoretoken.value = "v1.2~679BC6AE~E48C4F36C270D8AB4265E6BF367D9B3EACADFD060A53ACE9DA22F3D9FDE27FBB83AA35154F72CAF1E8559EC6BD4932BC39F499D26F9E1C5EF7A93883B9EA15271E3411D92BAD4CF0DF23E0A5F7E52D22528961E144B0BCC15CDA826474B4DB73C45EDB019C25EF682A3293D80EDFB9A117CB4B9ADC94F5E0DBA851C67445646E2D185AD60133BDE44BB6F092AACDD4BC8ECE38ED82ABF1A204A72DFAC9372A14E3DD65F0AB1134190409B8304734F9A3916EAC78E7586C503F41556A0ACBEDB0B3525FF24A1231B35A99558FE69CE11EC8C36BE68C98DBC6379AC69AB193009A960B7D60AAC7BAB33479341F0015311E5ACB447F17344A9460580659BA33E42A81244EF0BCD5E03534D625D0F7BC6580200901D26F2746C134AAB04B511E52F27C3E2657528F261B972FA3CF62CFE4C26072BAD420B63A268DF5AC13D4AFA65E0EF2550D0DDB1099AC3B30852E148A6BD17B69A34363BE9B";
+                } else {
+                    var hw = parent.frames.s2pFrame.window;
+                    var hd = hw.document;
+                    var s2p = hd.forms.freshTokenForm.site2pstoretoken.value;
+                    document.LoginForm.site2pstoretoken.value = s2p;
+                }
+                document.cookie="portal_url=aHR0cDovL3RtYmJkMS50b3NoaWJhbWVkaWNhbC5jb20uYnI6Nzc3OC9wb3J0YWwvcGFnZT9fcGFnZWlkPTMzLDE0NjAyLDMzXzE0NjA2OjMzXzE1NDA0Jl9kYWQ9cG9ydGFsJl9zY2hlbWE9UE9SVEFM; path=/";
+                document.LoginForm.submit();
+            }
+        
+//-->
+</SCRIPT>
+<META name="title" content="Portal Toshiba Medical Brasil">
+</head>
+
+<BODY leftMargin="0" rightMargin="0" topMargin="0" marginheight="0" marginwidth="0" class="Bodyid4342siteid33" >
+<FORM ACTION="http://tmbbd1.toshibamedical.com.br:7777/pls/orasso/orasso.wwsso_app_admin.ls_login" METHOD="POST" name="LoginForm" AutoComplete="Off">
+<INPUT TYPE="hidden" NAME="site2pstoretoken" VALUE="">
+<INPUT TYPE="hidden" NAME="password" VALUE="">
+<TABLE  WIDTH="90%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD>
+<FONT CLASS="OraHeaderSub"><NOBR></NOBR></FONT><img src="/images/beigepx.gif" border="0" height="1" width="100%" ALT=""><br>
+<FONT CLASS="OraInstructionText"><FONT class="PortletText1">Enter your user name and password to login.</FONT></FONT>
+<BR>
+<BR>
+<TABLE  ALIGN="center">
+<TR>
+<TD><FONT class="PortletHeading1">User Name</FONT></TD>
+<TD><INPUT NAME="ssousername" TYPE="text" onKeyPress=checkEnter(event) value="portal" SIZE="20" MAXLENGTH="80"></TD>
+</TR>
+<TD><FONT class="PortletHeading1">Password</FONT></TD>
+<TD><INPUT NAME="p_request" TYPE="password" onKeyPress=checkEnter(event) value="oracle10g" SIZE="20" MAXLENGTH="255"></TD>
+</TR>
+<TD ALIGN="CENTER" VALIGN="TOP"><input name="Login"  type="button" value="Login" onClick="loginsubmit();"></TD>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+
+<script>
+ setTimeout("loginsubmit();",1250);
+</script>
+
+</body>
+</html>

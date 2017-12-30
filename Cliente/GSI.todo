@@ -1,0 +1,14 @@
+{DONE 1 -oFlavio -cGSI : Retorno não esta cadastrando}
+{TODO 1 -oFlavio -cGSI : Gif em tempo de espera de retorno}
+{DONE 1 -oFlavio -cGSI : Form Especifico - Confirmação de inserção esta voltando em modo de edição}
+{DONE 1 -oFlavio -cGSI : Form Especificos (Enter como Tab)}
+{TODO 1 -oFlavio -cGSI : Restrição de Integridade - Exclusão (Catalogo)}
+{DONE 1 -oFlavio -cGSI : Consistencia Exportar - "Não há registro para exportação"}
+{DONE 1 -oFlavio -cGSI : Filtro- Na Selcao quando não achar parametros retornar tudo}
+{DONE 1 -oFlavio -cGSI : Padrão Pesquisa - Retornar (documentar chamada a ser padrao e cadastrar no Field)}
+{TODO 1 -oFlavio -cGSI : Excluir - Restriçao de Integridade}
+{DONE 1 -oFlavio -cGSI : Consistencias - KeyViolation - Caso ja tenha registro}
+{DONE 1 -oFlavio -cGSI :
+Consistencias - FieldValueRequered 
+(State = insert sem preenchido)}
+{TODO 1 -oFlavio -cGSI : FrmPadrao - Ta chamando ainda manutenção cadastral antigo (CriaFormLookUp-FuncoesCliente)}

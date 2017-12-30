@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{57BBF0BB-0F81-4241-862F-CE87D071BA9E}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="CEP.exe">Cliente\CEP.bdsproj</Projects>
+      <Projects Name="CEPSERV.exe">Server\CEPSERV.bdsproj</Projects>
+      <Projects Name="Targets">CEP.exe CEPSERV.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

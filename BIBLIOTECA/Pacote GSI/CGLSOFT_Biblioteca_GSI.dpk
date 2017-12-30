@@ -1,0 +1,68 @@
+package CGLSOFT_Biblioteca_GSI;
+
+{$R *.res}
+{$R '..\BAR\Barcode.dcr'}
+{$R '..\BAR\QRBarcode.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE ON}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'CGLSOFT Biblioteca GSI'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  inetdb,
+  dbrtl,
+  inet,
+  dsnap,
+  dbexpress,
+  dsnapcon,
+  xmlrtl,
+  vclactnband,
+  vcl,
+  vcljpg,
+  bdertl,
+  vclx,
+  vcldb,
+  fcstudiowin,
+  ipstudiowin,
+  vclie,
+  QR5RunD2006;
+
+contains
+  Extenso in '..\COMPONENTES\Extenso.pas',
+  tmbToolManutencaoTop in '..\COMPONENTES\tmbToolManutencaoTop.pas',
+  MENUBAR in '..\COMPONENTES\MENUBAR.PAS',
+  PnAjustaGrid in '..\COMPONENTES\PnAjustaGrid.pas',
+  PnFiltro in '..\COMPONENTES\PnFiltro.pas',
+  TextColorFI in '..\COMPONENTES\TextColorFI.pas',
+  tmbDataInspector in '..\COMPONENTES\tmbDataInspector.pas',
+  tmbToolcdsExportar in '..\COMPONENTES\tmbToolcdsExportar.pas',
+  tmbToolEdicaoBottom in '..\COMPONENTES\tmbToolEdicaoBottom.pas',
+  tmbToolEdicaoLista in '..\COMPONENTES\tmbToolEdicaoLista.pas',
+  tmbToolEdicaoTop in '..\COMPONENTES\tmbToolEdicaoTop.pas',
+  tmbToolManutencaoBottom in '..\COMPONENTES\tmbToolManutencaoBottom.pas',
+  u_AdicionarPesquisa in '..\COMPONENTES\u_AdicionarPesquisa.pas' {frmAdicionarPesquisa},
+  Barcode in '..\BAR\Barcode.pas',
+  QRBarcode in '..\BAR\QRBarcode.pas',
+  HTTPGet in '..\HttpGet\HTTPGet.pas';
+
+end.
